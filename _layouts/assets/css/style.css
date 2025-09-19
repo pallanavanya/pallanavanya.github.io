@@ -1,0 +1,19 @@
+:root{
+  --max-width: 900px;
+  --accent: #0b5fff;
+  --muted: #555;
+  --pad: 18px;
+}
+body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; color:#222; line-height:1.5;}
+.container{max-width:var(--max-width); margin:0 auto; padding:var(--pad);}
+.site-header{background:#f8f9fb; border-bottom:1px solid #e6e9ef; padding:12px 0;}
+.brand{font-weight:700; font-size:1.05rem; text-decoration:none; color:inherit;}
+.nav{float:right;}
+.nav a{margin-left:16px; text-decoration:none; color:var(--muted); font-size:0.95rem;}
+.hero{padding:12px 0 6px;}
+.hero h1{margin:0; font-size:2rem;}
+.subtitle{margin:6px 0 0; color:var(--muted);}
+.contact{margin-top:6px; font-size:0.95rem;}
+.site-footer{border-top:1px solid #eee; padding:18px 0; color:var(--muted); font-size:0.95rem; margin-top:36px;}
+h1,h2,h3{color:#111;}
+a{color:var(--accent); text-decoration:none;}
